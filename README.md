@@ -367,7 +367,7 @@ Parts 5 - 9 are all extra credit. The specific material of this extra credit is 
 
 Code for this portion should be written in a file called `MyBSTEC.java`. 
 
-We are writing four classes: `MyBSTEC`, `MyBSTNodeIterator`, `MyBSTKeyIterator`, and `MyBSTValueIterator`. `MyBSTIterator` will be an  inner (abstract) class of `MyBST`. `MyBSTKeyIterator` and `MyBSTValueIterator` will be inner classes of `MyBST` that extend from `MyBSTKeyIterator`. 
+We are writing four classes: `MyBSTEC`, `MyBSTNodeIterator`, `MyBSTKeyIterator`, and `MyBSTValueIterator`. `MyBSTIterator` will be an  inner (abstract) class of `MyBSTEC`. `MyBSTKeyIterator` and `MyBSTValueIterator` will be inner classes of `MyBSTEC` that extend from `MyBSTKeyIterator`. 
 
 Some of the design in this file may not be obvious. See the [appendix](#appendix) for details. We'll also be linking to the appropriate points at the appendix as needed, but as a whole, it may make more sense to read the appendix after you have implemented all the functionality. We ask that you don't ask any questions about the extra credit portions at tutor hours (you will gain more by thinking about it yourself) and that you save your Piazza questions, other than questions about clarification, until after the late submission deadline for PA 9 (week 10) so that we can save some tutor bandwidth. 
 
