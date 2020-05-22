@@ -164,7 +164,7 @@ For all of these methods, do shallow copies.
 - Change the `right` child of this node to be the argument node. 
 
 #### `public MyBSTNode<K, V> successor()`
-- This method returns the node with the next largest key after the key of this node. If there is no larger key, return `null`. 
+- This method returns the node with the smallest key greater than the key of this node. If there is no larger key, return `null`. 
 - Note that this is not necessarily the same as the "successor" written about in the pseudocode in Zybooks, which only cares about a successor for replacing a removed node that has two children. 
 - Every node in our BST should/will already have the proper connections (parent and child references) with our sorted key property, so make sure to use this to figure out how to write this method. We suggest that you draw out a tree and try to create an algorithm such that your algorithm works for all nodes in that tree. 
 
@@ -417,7 +417,7 @@ The only methods we will define in this class simply give us back the appropriat
 abstract class MyBSTNodeIterator<T> implements Iterator<T> {}
 ```
 
-This class is an inner class of the `MyBSTEC` class. This iterator iterates through the tree in order, moving to the node with the next largest key upon each advancement. See [appendix C](#appendix-C-extensions) and [appendix B](#mybstnodeiterator-class-declaration) for extensions and more details about the class declaration. 
+This class is an inner class of the `MyBSTEC` class. This iterator iterates through the tree in order, moving to the node with the smallest key greater than the current key upon each advancement. See [appendix C](#appendix-C-extensions) and [appendix B](#mybstnodeiterator-class-declaration) for extensions and more details about the class declaration. 
 
 
 ---
